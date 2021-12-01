@@ -1,0 +1,56 @@
+body {
+  background-color:pink;
+}
+
+.parent {
+  width:90%;
+  margin: auto;
+  position: absolute;
+}
+
+.parent img{
+  width:100%;
+  height:100%;
+}
+
+.child2{
+  position:absolute;
+  top: 40%;
+left: 50%;
+transform: rotate(-90deg);
+animation: handMove2 10s infinite linear;
+transform-origin: left;
+
+}
+.child2 img {
+  width:75%;
+  height:100%;
+  justify-content: center;
+}
+
+
+
+.child{
+  position: absolute;
+  top:42%;
+  left:50%;
+animation:handMove 10s infinite linear;
+transform-origin: left;
+
+}
+
+
+.child img {
+  width:65%;
+  height:100%;
+
+}
+@keyframes handMove {
+  100% { transform:rotate(30deg);}
+
+
+}
+@keyframes handMove2 {
+
+100% {transform: rotate(360deg);}
+}

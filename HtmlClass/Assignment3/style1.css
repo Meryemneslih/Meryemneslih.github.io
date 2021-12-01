@@ -1,0 +1,31 @@
+table,th{
+border: 1px solid black;
+   width: 400px;
+   border-color: black;
+}
+.tr{
+  background-color:yellow;
+}
+.tr1{
+  background-color: pink;
+}
+.center{
+  text-align: center;
+  color:darkblue;
+}
+
+.border{
+  border:2px solid red ;
+}
+textarea{
+  name:textarea;
+height: 120px;
+   width:400px;
+
+}
+.blue{
+  color: blue;
+}
+.pink{
+  color: hotpink;
+}
